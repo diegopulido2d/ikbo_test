@@ -1,0 +1,24 @@
+.quote-accept {
+    display: flex;
+    gap: 80px;
+}
+
+ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+}
+
+li{
+    list-style-type: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li div {
+    display: flex;
+    justify-content: space-between;
+}
