@@ -54,7 +54,7 @@ src/
 ## Uso de la aplicación
 
 Una vez que la aplicación esté corriendo en tu entorno local, podrás acceder a ella desde tu navegador en:
-http://localhost:3000
+http://localhost:5173
 
 
 La aplicación muestra dos columnas principales:
