@@ -66,6 +66,8 @@ La aplicación muestra dos columnas principales:
      - **Precio**
      - **Descripción**
      - Un botón **"Aceptar oferta"**, que permite agregar esa oferta a la lista de aceptadas.
+     - Un botón **"Rechazar oferta"**, que permite eliminar la oferta de la lista principal.
+
 
 2. **Ofertas aceptadas**  
    - Aquí se muestran todas las ofertas que el usuario ha aceptado durante la sesión.  
@@ -78,7 +80,7 @@ La aplicación muestra dos columnas principales:
 3. La oferta seleccionada se agrega a la columna derecha **"Ofertas aceptadas"**, la cual se va llenando a medida que se aceptan más ofertas.
 4. La información se maneja mediante *mutations* y *queries* proporcionadas por RTK Query.
 
-> 💡 **Nota:** Actualmente, los datos provienen de un servicio ficticio (dummyData), pero pueden adaptarse fácilmente para consumir una API real.
+> 💡 **Nota:** Actualmente, los datos provienen de un servicio ficticio (dummyData) y la información se recupera al recargar el sitio, pero pueden adaptarse fácilmente para consumir una API real.
 
 -------------------------------------
-Autor: diegopulido2d, 2025.
+> Autor: diegopulido2d, 2025.
